@@ -43,6 +43,11 @@ footer
     bottom: 0;
 }
 
+ol {
+    list-style-type: square;
+    overflow: hidden;
+}
+
 ul {
     list-style-type: none;
     width: 100%;
@@ -50,7 +55,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: #6F4E37;
-  }
+}
 
   li {
     float: left;
@@ -70,3 +75,4 @@ ul {
     background-color: #1F1300;
     text-decoration: underline;
   }
+
