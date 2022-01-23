@@ -23,12 +23,24 @@ h3
     color: #6F4E37
 }
 
+p
+{
+    font-family: Georgia, sans-serif;
+    color: #6F4E37
+}
+
 
 header
 {
   font-family: Courier, serif;
   text-align: center;
   color: #1F1300;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
 }
 
 ul {
@@ -41,6 +53,7 @@ ul {
 
   li {
     float: left;
+    border-right: 1px solid #bbb;
   }
   
   li a {
