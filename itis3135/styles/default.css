@@ -39,7 +39,7 @@ header
 
 footer
 {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -70,4 +70,3 @@ ul {
     background-color: #1F1300;
     text-decoration: underline;
   }
-
