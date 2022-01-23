@@ -11,3 +11,26 @@ header
   text-align: center;
   color: #D4AF37;
 }
+a:link 
+{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited 
+{
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover 
+{
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}

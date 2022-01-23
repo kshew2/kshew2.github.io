@@ -1,13 +1,56 @@
 body 
 {
-  font-family: Tahoma, sans-serif;
-  color: #F1FFFA;
-  background-color: #96E6B3;
+  font-family: Trebuchet, sans-serif;
+  color: #6F4E37;
+  background-color: #E8E288;
 }
+
+h1
+{
+    font-family: Georgia, sans-serif;
+    color: #6F4E37
+}
+
+h2
+{
+    font-family: Georgia, sans-serif;
+    color: #6F4E37
+}
+
+h3
+{
+    font-family: Georgia, sans-serif;
+    color: #6F4E37
+}
+
 
 header
 {
   font-family: Courier, serif;
   text-align: center;
-  color: #FFAC81;
+  color: #1F1300;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6F4E37;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #E8E288;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #1F1300;
+  }
