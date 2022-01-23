@@ -25,10 +25,10 @@ h2{
     background-color: transparent;
     text-decoration: none;
 }
-/*
+
 a:visited 
 {
-    color: orangered;
+    color: goldenrod;
     background-color: transparent;
     text-decoration: none;
 }
@@ -42,7 +42,7 @@ a:active {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-}*/
+}
 ul {
     list-style-type: none;
     width: 100%;
