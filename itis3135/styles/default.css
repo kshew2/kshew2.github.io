@@ -46,6 +46,8 @@ footer
 ol {
     list-style-type: square;
     overflow: hidden;
+    border-right: none;
+    float:inline-end;
 }
 
 ul {
@@ -55,12 +57,12 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: #6F4E37;
-    border-right:  1px solid #bbb;
-    float:left
+
 }
 
   li {
-    float:inline-end;
+    border-right:  1px solid #bbb;
+    float:left
   }
   
   li a {
