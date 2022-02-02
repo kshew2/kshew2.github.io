@@ -8,39 +8,48 @@ body
 h1
 {
     font-family: Georgia, sans-serif;
-    color: #6F4E37
+    color: #6F4E37;
 }
 
 h2
 {
     font-family: Georgia, sans-serif;
-    color: #6F4E37
+    color: #6F4E37;
+    text-align: center;
+    margin: 50px 25px 25px;
 }
 
 h3
 {
     font-family: Georgia, sans-serif;
-    color: #6F4E37
+    color: #6F4E37;
+    text-align: center;
 }
 
 p
 {
     font-family: Georgia, sans-serif;
-    color: #6F4E37
+    color: #6F4E37;
 }
-
 
 header
 {
   font-family: Courier, serif;
   text-align: center;
   color: #1F1300;
+  margin: 25px 50px 50px;
+}
+main
+{
+  margin: 10px 50px 200px;
 }
 
 footer
 {
     position: relative;
     bottom: 0;
+    margin:25px 50px 50px;
+    align-items: center;
 }
 a:link  
 {
@@ -66,33 +75,55 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-
-ul {
-    list-style-type: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: #6F4E37;
-
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure figcaption
+{
+  text-align: center;
+  margin-top: 5px;
 }
 
-  li {
-    border-right:  1px solid #bbb;
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    font-family: Courier, serif;
-    color: #E8E288;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #1F1300;
-    text-decoration: underline;
-  }
-
+nav
+{
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: auto;
+  background-color: #6F4E37;
+  border-right:  1px solid #bbb;
+  float: left;
+}
+nav a 
+{
+  display: block;
+  font-family: Courier, serif;
+  color: #E8E288;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right:  1px solid #bbb;
+  float: left;
+}
+nav a:hover 
+{
+  background-color: #1F1300;
+  text-decoration: underline;
+}
+table, th, td {
+  border: 1px solid #1F1300;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+#center_list
+{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}

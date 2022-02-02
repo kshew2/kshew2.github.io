@@ -11,6 +11,14 @@ header
   text-align: center;
   color: #D4AF37;
 }
+main
+{
+  margin: 50px 400px 300px;
+}
+footer
+{
+  margin: 25px 50px 50px;
+}
 h1{
     font-family: Courier, serif;
     text-align: center;
@@ -43,31 +51,31 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-ul {
-    list-style-type: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: #113B08;
 
+nav
+{
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: auto;
+  background-color: #113B08;
+  border-right:  1px solid #bbb;
+  float: left;
 }
-
-  li {
-    border-right:  1px solid #bbb;
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    font-family: Courier, serif;
-    color: #FFE77AFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #000e00;
-    text-decoration: underline;
-  }
+nav a 
+{
+  display: block;
+  font-family: Courier, serif;
+  color: #FFE77AFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right:  1px solid #bbb;
+  float: left;
+}
+nav a:hover 
+{
+  background-color: #000e00;
+  text-decoration: underline;
+}
