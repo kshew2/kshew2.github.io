@@ -127,3 +127,13 @@ table, th, td {
   margin-left: auto;
   margin-right: auto;
 }
+
+input
+{
+  background-color: #6F4E37;
+  color: #CC9966;
+}
+::placeholder
+{
+  color: #CC9966;
+}
