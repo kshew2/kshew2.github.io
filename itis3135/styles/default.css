@@ -9,6 +9,7 @@ h1
 {
     font-family: Georgia, sans-serif;
     color: #6F4E37;
+    text-align: center;
 }
 
 h2
@@ -38,6 +39,7 @@ header
   text-align: center;
   color: #1F1300;
   margin: 25px 50px 50px;
+  align-items: center;
 }
 main
 {
@@ -53,7 +55,7 @@ footer
 }
 a:link  
 {
-    color: khaki;
+    color: #CC9966;
     background-color: transparent;
     text-decoration: none;
 }
@@ -96,6 +98,7 @@ nav
   background-color: #6F4E37;
   border-right:  1px solid #bbb;
   float: left;
+  align-items: center;
 }
 nav a 
 {
@@ -136,4 +139,8 @@ input
 ::placeholder
 {
   color: #CC9966;
+}
+button
+{
+  margin-bottom: 5px;
 }

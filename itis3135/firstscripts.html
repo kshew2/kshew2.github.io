@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Khalil Shew 👹 ITIS-3135 👹 FirstScripts
+    </title>
+    <link rel="stylesheet" href="styles/default.css"/>
+    <script src = "scripts/defaultscripts.js"></script>
+</head>
+
+<body>
+
+    <div data-include = "components/header.html"></div>
+    <main>
+        <h2>
+         First JavaScripts
+        </h2>
+
+        <h3>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+        <p id="demo"></p>
+        </h3>
+        <br/>
+        <div id = "firstScript">
+            What's your name:          <input type = "text" id = "name" name = "name" value = "Harry potter" >
+            <br />
+            How are you feeling today? <input type = "text" id = "feeling" name = "feeling" value = "well" >
+            <br />
+            <button onclick = "greeting();" type = "button" name = "greeting" id = "greeting">Greeting</button>
+            <br />
+            <p id = "greetingMessage"></p>
+            <br />
+            <button onclick = "randomFact1();" type = "button" name = "randFact1" id = "randFact1"> Cool Salamander Fact</button>
+            <br />
+            <p id = "randomFact1"></p>
+            <br/>
+            <button onclick = "randomFact2();" type = "button" name = "randFact2" id = "randFact2">Cool Salamander Fact</button>
+            <br />
+            <p id = "randomFact2"></p>
+            <br/>
+            <button onclick = "randomFact3();" type = "button" name = "randFact3" id = "randFact3">Cool Salamander Fact</button>
+            <br />
+            <p id = "randomFact3"></p>
+            <br/>
+            <button onclick = "randomFact4();" type = "button" name = "randFact4" id = "randFact4">Cool Salamander Fact</button>
+            <br />
+            <p id = "randomFact4"></p>
+        
+    </main>
+    <div data-include = "components/footer.html"></div>
+
+    <script src = "scripts/htmlinclude.js"></script>
+</body>
+
+</html>
