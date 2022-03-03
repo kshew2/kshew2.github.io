@@ -50,7 +50,7 @@ main
 footer
 {
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     margin:25px 50px 50px;
     align-items: center;
