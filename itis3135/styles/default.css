@@ -40,6 +40,7 @@ header
   color: #1F1300;
   margin: 25px 50px 50px;
   align-items: center;
+  width:auto;
 }
 main
 {
@@ -48,10 +49,12 @@ main
 
 footer
 {
-    position: relative;
+    text-align: center;
+    position: fixed;
     bottom: 0;
     margin:25px 50px 50px;
     align-items: center;
+    width: 100%;
 }
 a:link  
 {
@@ -92,14 +95,16 @@ nav
 {
   list-style-type: none;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 0;
   overflow: auto;
   background-color: #6F4E37;
   border-right:  1px solid #bbb;
-  float: left;
-  align-items: center;
 }
+/*nav li
+{
+  display: inline;
+}*/
 nav a 
 {
   display: block;
@@ -109,6 +114,7 @@ nav a
   padding: 14px 16px;
   text-decoration: none;
   border-right:  1px solid #bbb;
+  margin: auto;
   float: left;
 }
 nav a:hover 

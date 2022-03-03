@@ -30,7 +30,7 @@ function validateNum(_input)
     }
 }
 /*returns the number as a shape*/
-function getShape(sides)
+function getShape()
 {
    if(guess == 1)
    {
