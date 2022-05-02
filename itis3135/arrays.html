@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        Khalil Shew 👹 ITIS-3135 👹 Khaki Salamander 👹 Home
+        Khalil Shew 👹 ITIS-3135 👹 Khaki Salamander 👹 Arrays
     </title>
     <link rel="stylesheet" href="styles/default.css"/>
 </head>
@@ -14,15 +14,48 @@
     <div data-include = "components/header.html"></div>
     <main>
         <h2>
-         Welcome to my ITIS 3135 homepage,this is my first iteration of a website I hope you enjoy!
+         Arrays
         </h2>
+        <div id="employee_form">
+            <label for="employee_name">Employee: </label>
+                <select name="employee_name" id="employee_name">
+                    <option value="Carl Marx">Carl Marx</option>
+                    <option value="Brad Pitt">Brad Pitt</option>
+                    <option value="John Meadows">John Meadows</option>
+                    <option value="Chris Hops">Chris Hops</option>
+                    <option value="Mary Bright">Mary Bright</option>
+                    <option value="Saint Nick">Saint Nick</option>
+                    <option value="Jay Wilkes">Jay Wilkes</option>
+                </select>
+                <br>
+                <br>
+                <label for="salary">Salary: $ </label>
+                <input type="number" id="salary" placeholder="Input Salary Here" required>
+                <br>
+                <br>
+                <input type="button" id="add" value="Add Salary">
+                <input type="button" id="display_results" value="Display Results">
+                <input type="button" id="display_salary" value="Display Salary">
+                <br>
+                <br>
+                <div id="results">
 
-    <p>Click through the links to find out more information about my course progress.</p>
-    <p>In here you will find all the things I am learning through my Web App Design and Development course.</p>
+                </div>
+
+                <br>
+                <br>
+
+                <div id="results_table" >
+
+                </div>
+        </div>
+
+
     </main>
     <div data-include = "components/footer.html"></div>
 
     <script src = "scripts/htmlinclude.js"></script>
+    <script src = "scripts/arrays.js"></script>
 </body>
 
 </html>
