@@ -4,23 +4,27 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        Khalil Shew 👹 ITIS-3135 👹 HTML Tables.
+        Khalil Shew 👹 ITIS-3135 👹 Khahki Salamander 👹 HTML Tables
     </title>
     <link rel="stylesheet" href="styles/default.css"/>
+
+  
 
 </head>
 
 <body>
     <div data-include = "components/header.html"></div>
     <main>
-        <h2>
+        <h2>Tables</h2>
+        
+        <h3>
         Welcome to my employee info page!
-        </h2>
+        </h3>
 
         <h3>
             My tabular data:
         </h3>
-        <ul id = "center_list">
+        <ol>
             <li>Frank Lou -- Flou1@uncc.edu - 6</li>
             <li>Hannah Mae -- HMae@uncc.edu - 2</li>
             <li>John Red -- JRed2@uncc.edu - 20</li>
@@ -28,11 +32,12 @@
             <li>Margret Peach -- Mpeach1@uncc.edu - 5</li>
             <li>Miles Glue -- MGlue1@uncc.edu - 6</li>
             <li>Carly Rae -- CRae3@uncc.edu - 15</li>
-        </ul>
+        </ol>
         <h3>
             Employee data in a simple table:
         </h3>
-        <table class="center">
+        <figure>
+        <table>
             <tr>
                 <th>Name</th>
                 <th>Email</th>
@@ -74,11 +79,13 @@
                 <td>15</td>
             </tr>
         </table>
-
+    <figcaption>Fig.1 Here we have a simple table with data.</figcaption>
+    </figure>
         <h3>
             Employee data in a Complex table:
         </h3>
-        <table class="center">
+        <figure>
+        <table>
             <tr>
                 <th>Category</th>
                 <th>Name</th>
@@ -137,12 +144,15 @@
             <td>$786,000</td>
             </tr>
         </table>
+    <figcaption>Fig.2 Here we have a more complex table with data.</figcaption>
+    </figure>
     </main>
     <footer>
 
             <br/>
             <div data-include = "components/footer.html"></div>
             <script src = "scripts/htmlinclude.js"></script>
+    </footer>
 </body>
 
 </html>

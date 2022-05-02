@@ -16,13 +16,20 @@ function validateNum(_input)
         getNumSides();
     }
     else
-    {
-        guess = Math.trunc(_input);
+    {   guess = Math.trunc(_input);
+        if(guess > -10 || guess < 0)
+        {
+            alert("Your number has be stored as entered as its absolute value");
+            guess = Math.abs(_input);
+            getShape();
+        }
+        
         if(guess < 1 || guess > 10)
         {
             alert("Your number must be between 1-10");
             getNumSides();
         }
+        
         else
         {
             getShape(guess);

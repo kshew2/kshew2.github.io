@@ -42,3 +42,12 @@ function randomFact4()
     document.getElementById("randomFact4").innerHTML = factList[randNum];
 }
 
+function randomFact5()
+{
+    let factList = new Array(
+        "The name Salamander comes from the Greek word for Fire Lizard."
+    );
+
+    let randNum = Math.floor(Math.random() * factList.length);   
+    document.getElementById("randomFact5").innerHTML = factList[randNum];
+}

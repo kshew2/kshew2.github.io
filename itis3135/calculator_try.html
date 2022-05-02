@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Khalil Shew 👹 ITIS-3135 👹 Khaki Salamander 👹 Calculator Try
+    </title>
+    <link rel="stylesheet" href="styles/default.css"/>
+    <script src = "scripts/calculatorscripts.js"></script>
+</head>
+
+<body>
+
+    <div data-include = "components/header.html"></div>
+    <main>
+        <h2>
+         Calculator Try
+        </h2>
+        <br>
+
+        <div id = ”calculator_try”>
+           <table> 
+            <tr>
+                <th colspan = "4" id="display">0</th>
+            </tr>
+            <tr>
+                <td><button onclick="seven1();" id="seven" type="button">7</button></td>
+                <td><button onclick="eight1();" id="eight" type="button">8</button></td>
+                <td><button onclick="nine1();"  id="nine" type="button">9</button></td>
+                <td><button onclick="division1();" id="divide" type="button">➗</button></td>
+            </tr>
+            <tr><td><button onclick="four1();" type="button">4</button></td>
+                <td><button onclick="five1();" type="button">5</button></td>
+                <td><button onclick="six1();" type="button">6</button></td>
+                <td><button onclick="multiplication1();" id="multiply"  type="button">✖️</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="one1();" id="one" type="button">1</button></td>
+                <td><button onclick="two1();" id="two" type="button">2</button></td>
+                <td><button onclick="three1();" id="three" type="button">3</button></td>
+                <td><button onclick="subtraction1();" id="subtract" type="button">➖</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clear1();" id="clear"  type="button">C</button></td>
+                <td><button onclick="zero1();" id="zero" type="button">0</button></td>
+                <td><button onclick="decimal1();" id="decimal" type="button">.</button></td>
+                <td><button onclick="addition1();" id="add" type="button">➕</button></td>
+            </tr>
+            <tr>
+                <td colspan ="4"><button onclick="equals1();" id="equals" type="button">=</button></td>
+            </tr>
+        </table>
+              </div>
+
+    </main>
+    <div data-include = "components/footer.html"></div>
+
+    <script src = "scripts/htmlinclude.js"></script>
+</body>
+
+</html>
