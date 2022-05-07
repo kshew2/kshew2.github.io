@@ -10,6 +10,7 @@ h1
     font-family: Georgia, sans-serif;
     color: #6F4E37;
     text-align: center;
+   
 }
 
 h2
@@ -17,7 +18,8 @@ h2
     font-family: Georgia, sans-serif;
     color: #6F4E37;
     text-align: center;
-    margin: 50px 25px 25px;
+    margin-left: -400px;
+    
 }
 
 h3
@@ -26,10 +28,7 @@ h3
     color: #6F4E37;
     text-align: center;
 }
-h4{
-  font-family: Georgia, sans-serif;
-  color: #6F4E37;
-}
+
 p
 {
     font-family: Georgia, sans-serif;
@@ -104,6 +103,7 @@ nav
   overflow: auto;
   background-color: #6F4E37;
   border-right:  1px solid #bbb;
+
 }
 /*nav li
 {
@@ -257,7 +257,18 @@ button
   to {opacity: 1}
 }
 
-ol{
-  display: table;
-  margin: 0 auto;
+li {
+    display: inline;
+    margin: 5px 5px 5px 5px;
+}
+  
+p #image{
+    margin-left: 75px;
+    display: inline;
+}
+
+#image_swap {
+    margin-left: 415px;
+    border-radius: 3px;
+    border-color: #1F1300 ;
 }

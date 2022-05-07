@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Khalil Shew 👹 ITIS-3135 👹 Khaki Salamander 👹 Slideshow
+    </title>
+    <link rel="stylesheet" href="styles/default.css"/>
+</head>
+
+<body>
+
+    <div data-include = "components/header.html"></div>
+    <main>
+        <h2>
+         Slideshow
+        </h2>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/arnold_schwarzenegger.jpg" >
+      <div class="text">Arnold Schwarzenegger</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/ronnie_coleman.JPG" style="width:100%">
+      <div class="text">Ronnie Coleman</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="images/jay_cutler.jpg" style="width:100%">
+      <div class="text">Jay Cutler</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/chris_bumstead.jpg" style="width:100%">
+        <div class="text">Chris Bumstead</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/frank-zane.jpg" style="width:100%">
+        <div class="text">Frank Zane</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/flex_wheeler.jpg" style="width:100%">
+        <div class="text">Flex Wheeler</div>
+      </div>
+  
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  
+    </main>
+    <div data-include = "components/footer.html"></div>
+    <script src = "scripts/slideshow.js"></script>
+    <script src = "scripts/jquery.js"></script>
+    <script src = "scripts/htmlinclude.js"></script>
+</body>
+
+</html>
