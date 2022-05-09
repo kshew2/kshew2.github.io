@@ -7,15 +7,89 @@
         Mitchell's Landscaping and Lawncare || Home      
     </title>
     <link rel="stylesheet" href="styles/project.css"/>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #7A3101;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #161B0E;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #312D20;
+          padding: 20px;
+        }
+        </style>
 </head>
 
 <body>
 
     <div data-include = "components/header.html"></div>
     <main>
-        <h2>
-         Welcome to mitchells lawn care.
-        </h2>
+      <h2>Contact</h2>
+        <p style="font-size:large">
+        Like what you see? Looking for a FREE estimate or looking for a job?
+        Fill out the form below and tell us your reason for contact to notify us to give you a call.
+        </p>
+        <h4>Please fill out info below:</h4>
+
+<div class="container">
+  <form action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="John...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Doe...">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="johndoe123@yahoo.com...">
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="lenoir">Lenoir</option>
+      <option value="hickory">Hickory</option>
+      <option value="granite falls">Granite Falls</option>
+      <option value="newton conover">Newton Conover</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <h4>My Contact info incase we are unable to reach out to you:</h4>
+  <ul style="font-size:large">
+      <li>Phone Number: (828)-726-9158</li>
+      <br>
+      <li>Email: mitchellslawncare@gmx.com</li>
+      <br>
+      <li>Click here to go to my <a href="https://m.facebook.com/1987lawn/" target="_blank"><strong>Facebook page</strong></a>.
+  </ul>
+
+</div>
+
     </main>
     <div data-include = "components/footer.html"></div>
 
